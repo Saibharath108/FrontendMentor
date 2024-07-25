@@ -1,0 +1,57 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+body,
+html {
+    display: grid;
+    height: 100%;
+    margin: 0;
+    place-items: center;
+}
+
+body {
+    background-color: rgb(196, 226, 255);
+}
+
+#container {
+    width: 320px;
+    height: 497px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container #qrimg{
+    margin-top: 5%;
+    width: 288px;
+    height: 288px;
+    align-items: center;
+}
+
+#qrimg img {
+    width: 100%;
+    border-radius: 3%;
+    height: 100%;
+    object-fit: contain;
+}
+#content{
+    margin-top: 5%;
+    width: 288px;
+    height: 288px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* margin-left: 10%; */
+    /* display: flex; */
+}
+.p1 {
+    font-weight: bold;
+    font-size:24px;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}   
